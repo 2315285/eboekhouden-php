@@ -22,7 +22,7 @@ $username = 'username';
 $sec_code_1 = 'sec_code_1';
 $sec_code_2 = 'sec_code_2';
 
-$client = new IntVent\Eboekhouden\Client($username, $sec_code_1, $sec_code2);
+$client = new IntVent\Eboekhouden\Client($username, $sec_code_1, $sec_code_2);
 
 // Get a SigleSignOnLink (AutoLogin)
 $autoLogin = $client->autoLogin();
